@@ -1,5 +1,6 @@
 body{
-    background-image: ;
+  background-image: url('/images/behr-zoom-background-feature-2020.jpg;');
+  background-size: cover;
 }
 /* Add a black background color to the top navigation */
 .topnav {
