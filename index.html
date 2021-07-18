@@ -60,16 +60,19 @@
         <img src="images/chicken 2.jpg" alt="chicken" width="200" height="200">
         <img src="./images/julie 2.jpg" alt="julie" width="200" height="200">
       </div>
-<div>
-  
+<div class="form">
+  <h5>Leave your name and comment below for contact purposes</h5>
   <form action="/action_page.php">
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" value=""><br>
     <label for="lname">Last name:</label><br>
     <input type="text" id="lname" name="lname" value=""><br><br>
-    <label for="comment">Comment:</label><br>
-    <input type="text" id="comment" name="comment" value=""><br><br>
+   <div> 
+     <label for="comment">Comment:</label><br>
+    <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
     <input type="submit" value="Submit">
+  
   </form>
 </div>
       
